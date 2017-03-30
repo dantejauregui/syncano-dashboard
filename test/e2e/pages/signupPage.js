@@ -27,6 +27,9 @@ export default {
     },
     termsOfUseLink: {
       selector: 'p.vm-0-b.text--center a'
+    },
+    onboardingDialogTerminal: {
+      selector: '[data-e2e="onboarding-dialog-termial"]'
     }
   }
 };

@@ -16,6 +16,6 @@ export default addTestNamePrefixes({
       .fillInput('@passInput', tempPass)
       .clickElement('@submitButton')
       .waitForElementNotPresent('@setupScreen')
-      .waitForElementVisible('@socketsList');
+      .waitForElementVisible('@onboardingDialogTerminal');
   }
 });

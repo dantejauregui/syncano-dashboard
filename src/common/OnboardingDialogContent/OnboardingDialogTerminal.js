@@ -94,7 +94,10 @@ const Terminal = () => {
   };
 
   return (
-    <div style={styles.hero}>
+    <div
+      style={styles.hero}
+      data-e2e="onboarding-dialog-termial"
+    >
       <div>
         <div style={styles.terminal}>
           <div style={styles.toolbar}>
@@ -112,7 +115,7 @@ const Terminal = () => {
           <div style={styles.terminalText}>
             <div style={styles.terminalTextP}>
               ⬢
-              <span style={styles.terminalTextPath}> &#126;&#47;awesome-project </ span>
+              <span style={styles.terminalTextPath}> &#126;&#47;awesome-project </span>
               npm install -g syncano-cli <br />
             </div>
             <div style={styles.terminalTextP}>
